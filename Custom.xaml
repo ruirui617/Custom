@@ -1,0 +1,10 @@
+<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="主页联网更新，现在你看到的是最新的主页。" />
+
+<local:MyCard Title="服务器地址" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" FontSize="13" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush1}"
+                    Text="play.simpfun.cn:16501" />
+  	<local:MyButton Margin="0,4,0,0" Width="250" Height="35"
+                    Text="启动游戏并进入服务器" EventType="启动游戏" EventData="1.16.5|play.simpfun.cn:16501" ToolTip="play.simpfun.cn:16501" />
+    </StackPanel>
+</local:MyCard>
